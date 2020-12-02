@@ -29,22 +29,22 @@ public class ConsoleIoLecture{
 
         //TODO TOGETHER: Print a formatted string using the following... printf(formatString, data)
 
-        System.out.printf("Hello%n");
-        System.out.printf("World");
+//        System.out.printf("Hello%n");
+//        System.out.printf("World");
 
 
 
         //TODO TOGETHER:
         // (1) Create a string variable
         // (2) print using printf() with placeholder %s
-        String name = "John";
-
-        System.out.printf("Hello %s%n", name); //Hello John
+//        String name = "John";
+//
+//        System.out.printf("Hello %s%n", name); //Hello John
 
 
         // TODO: print using printf() with placeholder %S
 
-        System.out.printf("Hello %S%n", name); //Hello JOHN
+//        System.out.printf("Hello %S%n", name); //Hello JOHN
 
 
         //TODO: Remove the %n from the first printf. What do you notice?
@@ -77,6 +77,9 @@ public class ConsoleIoLecture{
         //TODO TOGETHER:
         // (1) Create int variable currencyPennies
         // (2) Print variable using currency formatting
+
+        int currencyPennies = 1000;
+        System.out.printf("I'll sell you land for $%.2f an acre!%n", currencyPennies/100.00);
 
 
 
