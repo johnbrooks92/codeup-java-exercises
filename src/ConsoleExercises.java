@@ -33,8 +33,8 @@ public class ConsoleExercises {
 //        int roomArea = lengthInput * widthInput;
 //        int roomPerimeter = (2*lengthInput) + (2*widthInput);
 //
-//        System.out.printf("The area of the classroom is %d.%n", roomArea);
-//        System.out.printf("The perimeter of the classroom is %d.%n", roomPerimeter);
+//        System.out.printf("The area of the classroom is %d%n", roomArea);
+//        System.out.printf("The perimeter of the classroom is %d%n", roomPerimeter);
 
 
     }
