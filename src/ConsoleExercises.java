@@ -23,18 +23,18 @@ public class ConsoleExercises {
 //        System.out.println("Where is Waldo?");
 //        String location = userInput.nextLine();
 //        System.out.println(location);
-
-        System.out.println("Enter the length of the Jupiter classroom");
-        String userLength = userInput.nextLine();
-        System.out.println("Enter the width of the Jupiter classroom");
-        String userWidth = userInput.nextLine();
-        int lengthInput = Integer.parseInt(userLength);
-        int widthInput = Integer.parseInt(userWidth);
-        int roomArea = lengthInput * widthInput;
-        int roomPerimeter = (2*lengthInput) + (2*widthInput);
-
-        System.out.printf("The area of the classroom is %d.%n", roomArea);
-        System.out.printf("The perimeter of the classroom is %d.%n", roomPerimeter);
+//
+//        System.out.println("Enter the length of the Jupiter classroom");
+//        String userLength = userInput.nextLine();
+//        System.out.println("Enter the width of the Jupiter classroom");
+//        String userWidth = userInput.nextLine();
+//        int lengthInput = Integer.parseInt(userLength);
+//        int widthInput = Integer.parseInt(userWidth);
+//        int roomArea = lengthInput * widthInput;
+//        int roomPerimeter = (2*lengthInput) + (2*widthInput);
+//
+//        System.out.printf("The area of the classroom is %d.%n", roomArea);
+//        System.out.printf("The perimeter of the classroom is %d.%n", roomPerimeter);
 
 
     }
