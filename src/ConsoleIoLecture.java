@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class ConsoleIoLecture{
     public static void main(String[] args) {
@@ -89,25 +90,35 @@ public class ConsoleIoLecture{
         // The Scanner class allows us to get data input that the user enters into the console.
         // Scanner Docs ==> http://www.cs.utexas.edu/users/ndale/Scanner.html
 
+        Scanner userInput = new Scanner(System.in);
+        System.out.println(userInput);
 
 
 
         // >>>> .next() method
         // .next() captures each input usually signified by whitespace. The input is returned as a string
-
-
+//        System.out.println("Please enter your first, middle, and last name.");
+//        String firstName = userInput.next();
+//        String middleName = userInput.next();
+//        String lastName = userInput.next();
+//        System.out.println(firstName);
+//        System.out.println(middleName);
+//        System.out.println(lastName);
+        //Input of names successfully returned in the Run window
 
 
         // >>>> .nextInt() method
         // .nextInt() captures the first valid int value
-
-
-
+//        System.out.println("Please enter your age.");
+//        int age = userInput.nextInt();
+//        System.out.println(age);
 
 
         // >>>> .nextLine() method
         // .nextLine() Returns the rest of the current line
-
+//        System.out.println("Please enter your favorite quote.");
+//        String quote = userInput.nextLine();
+//        System.out.println(quote);
 
 
 
@@ -122,13 +133,13 @@ public class ConsoleIoLecture{
             *or any Scanner.nextFoo method (except nextLine itself).
          */
 
-//         Scanner sc = new Scanner(System.in);
-//         System.out.print("Please enter your favorite number: ");
-//         int num = sc.nextInt();
-//         System.out.println(num);
-//         System.out.print("Please enter your favorite words: ");
-//         String words = sc.nextLine();
-//         System.out.println(words);
+         Scanner sc = new Scanner(System.in);
+         System.out.print("Please enter your favorite number: ");
+         int num = sc.nextInt();
+         System.out.println(num);
+         System.out.print("Please enter your favorite words: ");
+         String words = sc.nextLine();
+         System.out.println(words);
 
 
     }
