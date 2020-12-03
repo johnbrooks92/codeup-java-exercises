@@ -50,14 +50,14 @@ public class ControlFlowExercises {
 
 //          Table of Numbers
 
-        String tableContinue = "Y";
+        String resetTable = "Y";
 
-        while (tableContinue.equalsIgnoreCase("y")) {
+        while (resetTable.equalsIgnoreCase("y")) {
 
-            System.out.println("Input an integer: ");
+            System.out.println("Provide a number: ");
             int userNum = Integer.parseInt(input.nextLine());
 
-            System.out.println(" Here is your table:");
+            System.out.println("Here is your table:");
             System.out.println("\n number | squared | cubed \n ------ | ------- | -----");
 
             for (int num = 1; num <= userNum; num++) {
@@ -65,8 +65,8 @@ public class ControlFlowExercises {
                 System.out.println("  " + num + "     | " + (num * num) + "       | " + (num * num * num));
             }
 
-            System.out.println("do you want to try another integer table? Y/N ");
-            tableContinue = input.nextLine();
+            System.out.println("Do you want to try another integer table? Y/N ");
+            resetTable = input.nextLine();
         }
 
         System.out.println("Fine, I didn't want you to anyways.");
@@ -78,7 +78,7 @@ public class ControlFlowExercises {
 
 
         do {
-            System.out.println("give me a number grade 1 - 100");
+            System.out.println("Input a number grade between 1 and 100");
             int grade = Integer.parseInt(input.nextLine());
 
             if (grade > 97) {
@@ -109,7 +109,7 @@ public class ControlFlowExercises {
                 System.out.println("F");
             }
 
-            System.out.println("would you like to test another grade? y/n");
+            System.out.println("Would you like to try again? y/n");
 
         }while (input.nextLine().equalsIgnoreCase("y"));
 
