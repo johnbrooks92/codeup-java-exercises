@@ -37,7 +37,7 @@ public class ControlFlowExercises {
 
 //        for (int i = 1; i <= 100; i++)
 //        {
-//            if (((i % 3) == 0) && ((i % 3) == 0)) // Is it a multiple of 3 & 5?
+//            if ((i % 15) == 0) // Is it a multiple of 3 & 5 (15)?
 //                System.out.println("fizzbuzz");
 //            else if ((i % 3) == 0) // Is it a multiple of 3?
 //                System.out.println("fizz");
