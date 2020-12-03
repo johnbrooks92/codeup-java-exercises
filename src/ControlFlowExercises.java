@@ -1,7 +1,8 @@
+import java.util.Scanner;
 public class ControlFlowExercises {
 
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
 //        Loop Practice
 
 //        int i = 5;
@@ -47,11 +48,70 @@ public class ControlFlowExercises {
 //        }
 
 
+//          Table of Numbers
+
+        String tableContinue = "Y";
+
+        while (tableContinue.equalsIgnoreCase("y")) {
+
+            System.out.println("Input an integer: ");
+            int userNum = Integer.parseInt(input.nextLine());
+
+            System.out.println(" Here is your table:");
+            System.out.println("\n number | squared | cubed \n ------ | ------- | -----");
+
+            for (int num = 1; num <= userNum; num++) {
+
+                System.out.println("  " + num + "     | " + (num * num) + "       | " + (num * num * num));
+            }
+
+            System.out.println("do you want to try another integer table? Y/N ");
+            tableContinue = input.nextLine();
+        }
+
+        System.out.println("Fine, I didn't want you to anyways.");
 
 
 
 
+        //        Grading System
 
+
+        do {
+            System.out.println("give me a number grade 1 - 100");
+            int grade = Integer.parseInt(input.nextLine());
+
+            if (grade > 97) {
+                System.out.println("A+");
+            } else if (grade > 93) {
+                System.out.println("A");
+            } else if (grade > 90) {
+                System.out.println("A-");
+            } else if (grade > 87) {
+                System.out.println("B+");
+            } else if (grade > 83) {
+                System.out.println("B");
+            } else if (grade > 80) {
+                System.out.println("B-");
+            } else if (grade > 77) {
+                System.out.println("C+");
+            } else if (grade > 73) {
+                System.out.println("C");
+            } else if (grade > 70) {
+                System.out.println("C-");
+            } else if (grade > 67) {
+                System.out.println("D+");
+            } else if (grade > 63) {
+                System.out.println("D");
+            } else if (grade > 60) {
+                System.out.println("D-");
+            } else {
+                System.out.println("F");
+            }
+
+            System.out.println("would you like to test another grade? y/n");
+
+        }while (input.nextLine().equalsIgnoreCase("y"));
 
     }
 }
