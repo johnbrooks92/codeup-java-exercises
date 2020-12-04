@@ -3,13 +3,13 @@ public class Bob {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("talk to Bob: ");
-        String chat = input.nextLine();
+        String response = input.nextLine();
 
-        if (chat.endsWith("?")) {
+        if (response.endsWith("?")) {
             System.out.println("Sure.");
-        } else if (chat.endsWith("!")) {
+        } else if (response.endsWith("!")) {
             System.out.println("Whoa, chill out!");
-        } else if (chat.isEmpty()) {
+        } else if (response.isEmpty()) {
             System.out.println("Fine. Be that way!");
         } else {
             System.out.println("Whatever.");
