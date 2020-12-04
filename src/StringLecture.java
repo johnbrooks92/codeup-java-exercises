@@ -20,6 +20,7 @@ public class StringLecture {
 //        String title = "Dr. Doctor";
 //        boolean isADoctor = title.toLowerCase().startsWith("dr");
 //        System.out.println(isADoctor);
+//        System.out.println(isADoctor);
 
 
 // ------ .endsWith(String suffix)
@@ -73,9 +74,9 @@ public class StringLecture {
 
 // ------ .substring(int beginIndex[, int endIndex])
 
-//        String name = "Justin Bob Reich";
-//        String firstName = name.substring(0, name.indexOf(" "));
-//
+        String name = "Justin Bob Reich";
+        String firstName = name.substring(0, name.indexOf(" ")); //Cutting the message short of the second word by ending at white space.
+        System.out.println(firstName);
 //        String lastName = name.substring(name.lastIndexOf(" ") + 1);
 //        System.out.println(firstName);
 //        System.out.println(lastName);
