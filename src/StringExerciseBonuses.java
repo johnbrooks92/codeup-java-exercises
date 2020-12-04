@@ -1,6 +1,10 @@
+import java.util.Scanner;
 public class StringExerciseBonuses {
     public static void main(String[] args) {
-        String str = "BeginnersBook";
+        //COUNTS VOWELS AND CONSONANTS
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a string.");
+        String str = input.nextLine();
         int vcount = 0, ccount = 0;
 
         //converting all the chars to lowercase
