@@ -27,8 +27,8 @@ public class quizandtest {
             }
             return output;
         }
-//
-//
+
+
         public static void userInteractionFactorial(Scanner sc) {
             boolean willContinue;
             String userChoice;
