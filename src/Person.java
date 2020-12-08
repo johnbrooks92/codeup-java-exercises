@@ -1,6 +1,6 @@
 public class Person {
 
-        //        // SLIDE 3
+                // SLIDE 3
 //        public String firstName;
 //        public String lastName;
 
@@ -8,13 +8,13 @@ public class Person {
         // SLIDE 4
 
         //        // instance variables
-//        public String firstName;
-//        public String lastName;
-//
-//        // instance method
-//        public String sayHello() {
-//                return lastName + ", " + firstName + " says hi!";
-//        }
+        public String firstName;
+        public String lastName;
+
+        // instance method
+        public String sayHello() {
+                return lastName + ", " + firstName + " says hi!";
+        }
 
 
         // SLIDE 7

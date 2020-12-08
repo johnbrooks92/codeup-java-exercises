@@ -9,7 +9,7 @@ public class OopLecture {
 //            rick.lastName = "Sanchez";
 //            System.out.println(rick.firstName);
 //            System.out.println(rick.lastName);
-//
+////
 //            Person fred = new Person();
 //            fred.firstName = "Fred";
 //            fred.lastName = "Smith";
@@ -32,13 +32,13 @@ public class OopLecture {
 
         // ======================== slide 4 (object fields)
 
-//            Person rick = new Person();
-//            rick.firstName = "Rick";
-//            rick.lastName = "Sanchez";
-//            System.out.println(rick.sayHello());
+            Person rick = new Person();
+            rick.firstName = "Rick";
+            rick.lastName = "Sanchez";
+            System.out.println(rick.sayHello());
 
         // -- Dog Method Example --
-
+//
 //            Dog d1 = new Dog();
 //            d1.age = 3;
 //            d1.breed = "corgi";
