@@ -4,15 +4,12 @@ import java.util.Scanner;
 
 public class Input {
     private Scanner scanner;
-
     public Input() {
         this.scanner = new Scanner(System.in);
     }
-
     public String getString() {
         return scanner.nextLine();
     }
-
     public String getString(String prompt) {
         if (prompt.isEmpty()) {
             System.out.println("Type something: ");
@@ -21,18 +18,14 @@ public class Input {
         }
         return getString();
     }
-
     public boolean yesNo() {
         String yesorno = scanner.nextLine();
         return yesorno.equalsIgnoreCase("y") || yesorno.equalsIgnoreCase("yes");
     }
-
     public int getInt(int min, int max) {
         System.out.format("Please select a number between %s and %s: \n", min, max);
-
         try {
             int userNum = Integer.valueOf(scanner.nextLine());
-
             if (userNum >= min && userNum <= max) {
                 return userNum;
             } else {
@@ -44,20 +37,16 @@ public class Input {
             return getInt(min, max);
         }
     }
-
     public int getInt() {
         try {
             int userNum = Integer.valueOf(scanner.nextLine());
             return userNum;
-
         } catch (Exception e) {
             System.out.println("Invalid number.");
             return getInt();
         }
     }
-
     public double getDouble(double min, double max) {
-
         System.out.format("Choose number between %s and %s: \n", min, max);
         try {
             double userDbl = Double.valueOf(scanner.nextLine());
@@ -72,7 +61,6 @@ public class Input {
             return getDouble(min, max);
         }
     }
-
     public double getDouble() {
         try {
             return Integer.valueOf(scanner.nextLine());
@@ -81,7 +69,6 @@ public class Input {
             return getDouble();
         }
     }
-
     public int getBinary() {
         try {
             return Integer.valueOf(scanner.nextLine(), 2);
@@ -90,7 +77,6 @@ public class Input {
             return getBinary();
         }
     }
-
     public int getHex() {
         try {
             return Integer.valueOf(scanner.nextLine(), 16);
@@ -99,5 +85,4 @@ public class Input {
             return getHex();
         }
     }
-
 }
