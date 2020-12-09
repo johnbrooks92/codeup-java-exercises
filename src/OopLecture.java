@@ -32,7 +32,7 @@ public class OopLecture {
 
         // ======================== slide 4 (object fields)
 
-            Person rick = new Person();
+            PersonLecture rick = new PersonLecture();
             rick.firstName = "Rick";
             rick.lastName = "Sanchez";
             System.out.println(rick.sayHello());
