@@ -32,7 +32,7 @@ public class ConsoleAdventure {
                 System.out.println("????: Whoa! How did you get here? Was that some kind of magic or something?");
                 System.out.println("????: Anyways, who are you?");
                 String name2 = advScanner.nextLine();
-                System.out.println("???: " +name2 + "? That's a beautiful name, " + name2 + ".");
+                System.out.println("???: " + name2 + "? That's a beautiful name, " + name2 + ".");
                 System.out.println("Sly: I'm Sly Cooper and these are my pals, Bentley and Murray.");
                 System.out.println("Bentley: Nice to meet you. I'm the brains of this operation.");
                 System.out.println("Murray: And I'm the brawn and getaway driver! And together...");
@@ -51,7 +51,7 @@ public class ConsoleAdventure {
                 System.out.println("????: Whatever, just don't let it happen again.");
                 System.out.println("????: Could your rude ass at least give me your name?");
                 String name4 = advScanner.nextLine();
-                System.out.println("???? :" +name4 + "? Thats a stupid name!");
+                System.out.println("???? :" + name4 + "? Thats a stupid name!");
                 System.out.println("Yusuke: I'm Yusuke and I'm this planet's Spirit Detective. Might mistake you for a demon and you'll be eating a Spirit Gun sandwich next time!");
             } else {
                 count++;
@@ -75,7 +75,7 @@ public class ConsoleAdventure {
                 System.out.println("????: Whoa! How did you get here? Was that some kind of magic or something?");
                 System.out.println("????: Anyways, who are you?");
                 String name2 = advScanner.nextLine();
-                System.out.println("???: " +name2 + "? That's a beautiful name, " + name2 + ".");
+                System.out.println("???: " + name2 + "? That's a beautiful name, " + name2 + ".");
                 System.out.println("Sly: I'm Sly Cooper and these are my pals, Bentley and Murray.");
                 System.out.println("Bentley: Nice to meet you. I'm the brains of this operation.");
                 System.out.println("Murray: And I'm the brawn and getaway driver! And together...");
@@ -94,7 +94,7 @@ public class ConsoleAdventure {
                 System.out.println("????: Whatever, just don't let it happen again.");
                 System.out.println("????: Could your rude ass at least give me your name?");
                 String name4 = advScanner.nextLine();
-                System.out.println("???? :" +name4 + "? That's a stupid name!");
+                System.out.println("???? :" + name4 + "? That's a stupid name!");
                 System.out.println("Yusuke: I'm Yusuke and I'm this planet's Spirit Detective. Might mistake you for a demon and you'll be eating a Spirit Gun sandwich next time!");
             } else {
                 count++;
@@ -106,7 +106,7 @@ public class ConsoleAdventure {
             }
             return "";
         }
-        return"";
+        return "";
     }
 }
 

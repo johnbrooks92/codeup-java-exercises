@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class MethodsExercises {
 
-    public static void main (String[] arg) {
+    public static void main(String[] arg) {
 
         Scanner myScanner = new Scanner(System.in);
         int x, y, sum, difference, product, quotient, modulus, userInput;
@@ -64,15 +64,16 @@ public class MethodsExercises {
         System.out.println("Invalid input. Try again.");
         return getInteger(min, max);
     }
-    public static long factorial(int fact){
-        long userInput = getInteger(1,10);
-        for (long i = 1; i <= userInput; i++){
+
+    public static long factorial(int fact) {
+        long userInput = getInteger(1, 10);
+        for (long i = 1; i <= userInput; i++) {
             fact *= i;
         }
         return fact;
     }
 
-    public static String dice(int sides){
+    public static String dice(int sides) {
         Random random = new Random();
         int roll1 = random.nextInt(sides) + 1;
         int roll2 = random.nextInt(sides) + 1;
