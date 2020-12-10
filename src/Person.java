@@ -14,17 +14,16 @@ public class Person {
     }
 
     public Person(String name) {
+
+
         setName(name);
     }
 
     public static void main(String[] args) {
         Person joon = new Person("John");
-
         System.out.println(joon.getName());
         joon.setName("Joon");
         joon.sayHello();
-
-
     }
 }
 
