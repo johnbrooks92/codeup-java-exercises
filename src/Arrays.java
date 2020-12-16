@@ -1,6 +1,6 @@
 package arraysLecture;
 
-public class ArraysLec {
+public class Arrays {
 
     public static void main(String[] args) {
 
