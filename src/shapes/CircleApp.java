@@ -16,9 +16,9 @@ public class CircleApp {
             System.out.println(circle.getArea());
             System.out.println(circle.getCircumference());
             System.out.println("Would you lie to try again?");
-            input.yesNo();
+            input.yesNo("Would you like to view grades for another student?");
             count++;
-        } while (input.yesNo());
+        } while (input.yesNo("Would you like to view grades for another student?"));
         System.out.println(count + " Circles created");
     }
 }
